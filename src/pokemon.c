@@ -6923,6 +6923,7 @@ static bool8 ShouldSkipFriendshipChange(void)
 #define ALLOC_FAIL_BUFFER (1 << 0)
 #define ALLOC_FAIL_STRUCT (1 << 1)
 #define GFX_MANAGER_ACTIVE 0xA3 // Arbitrary value
+#define GFX_MANAGER_ACTIVE 0xA3 // Arbitrary value
 
 static void InitMonSpritesGfx_Battle(struct MonSpritesGfxManager* gfx)
 {
